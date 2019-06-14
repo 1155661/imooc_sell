@@ -1,5 +1,6 @@
 package com.example.sell.dto;
 
+import com.example.sell.dataobject.OrderDetail;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -38,6 +39,6 @@ public class OrderDTO {
     /** 更新时间 */
     private Date updateTime;
 
-//    List<OrderDetail> orderDetailList;
+    List<OrderDetail> orderDetailList;
 
 }
